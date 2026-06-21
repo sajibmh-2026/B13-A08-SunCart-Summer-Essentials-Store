@@ -1,0 +1,91 @@
+
+[
+  {
+    "id": 1,
+    "name": "UV Protection Sunglasses",
+    "brand": "SunShade",
+    "price": 15,
+    "rating": 4.7,
+    "stock": 10,
+    "description": "Stylish UV protection sunglasses perfect for summer outings.",
+    "image": "https://i.postimg.cc/example1.png",
+    "category": "Accessories"
+  },
+  {
+    "id": 2,
+    "name": "Cooling Gel Pillow",
+    "brand": "ChillNest",
+    "price": 22,
+    "rating": 4.5,
+    "stock": 18,
+    "description": "Breathable cooling gel pillow designed for comfortable hot-weather sleep.",
+    "image": "https://i.postimg.cc/example2.png",
+    "category": "Home & Living"
+  },
+  {
+    "id": 3,
+    "name": "Portable Mini Fan",
+    "brand": "BreezeGo",
+    "price": 12,
+    "rating": 4.3,
+    "stock": 25,
+    "description": "Compact rechargeable fan, easy to carry for instant cooling on the go.",
+    "image": "https://i.postimg.cc/example3.png",
+    "category": "Electronics"
+  },
+  {
+    "id": 4,
+    "name": "SPF 50 Sunscreen Lotion",
+    "brand": "SkinGuard",
+    "price": 9,
+    "rating": 4.6,
+    "stock": 40,
+    "description": "Lightweight broad-spectrum sunscreen that protects skin from harmful UV rays.",
+    "image": "https://i.postimg.cc/example4.png",
+    "category": "Beauty & Personal Care"
+  },
+  {
+    "id": 5,
+    "name": "Quick-Dry Beach Towel",
+    "brand": "WaveLine",
+    "price": 18,
+    "rating": 4.4,
+    "stock": 15,
+    "description": "Lightweight, sand-free, and fast-drying towel ideal for beach trips.",
+    "image": "https://i.postimg.cc/example5.png",
+    "category": "Travel & Outdoor"
+  },
+  {
+    "id": 6,
+    "name": "Insulated Water Bottle",
+    "brand": "HydroFlow",
+    "price": 14,
+    "rating": 4.8,
+    "stock": 30,
+    "description": "Double-walled insulated bottle that keeps drinks cold for up to 24 hours.",
+    "image": "https://i.postimg.cc/example6.png",
+    "category": "Sports & Fitness"
+  },
+  {
+    "id": 7,
+    "name": "Wide Brim Sun Hat",
+    "brand": "SunShade",
+    "price": 11,
+    "rating": 4.2,
+    "stock": 20,
+    "description": "Foldable wide-brim hat offering excellent shade and sun protection.",
+    "image": "https://i.postimg.cc/example7.png",
+    "category": "Accessories"
+  },
+  {
+    "id": 8,
+    "name": "Waterproof Phone Pouch",
+    "brand": "AquaSeal",
+    "price": 8,
+    "rating": 4.5,
+    "stock": 35,
+    "description": "Transparent waterproof pouch to protect your phone during pool or beach use.",
+    "image": "https://i.postimg.cc/example8.png",
+    "category": "Electronics"
+  }
+]
