@@ -1,7 +1,15 @@
-import Image from "next/image";
+import Hero from "@/components/home/Hero";
+import PopularProducts from "@/components/home/PopularProducts";
+import SummerTips from "@/components/home/SummerTips";
+import TopBrands from "@/components/home/TopBrands";
 
 export default function Home() {
   return (
-     <h2 className="text-red-500">Homepage</h2>
+    <>
+      <Hero />
+      <PopularProducts />
+      <SummerTips />
+      <TopBrands />
+    </>
   );
 }
