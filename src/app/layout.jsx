@@ -20,7 +20,7 @@ export const metadata = {
   description:
     "Discover the best summer essentials — sunglasses, skincare, beach gear, and more at SunCart.",
   icons: {
-    icon: "/istockphoto-1124567572-612x612-removebg-preview.png",
+    icon: "/sunpic.png",
   },
 };
 
