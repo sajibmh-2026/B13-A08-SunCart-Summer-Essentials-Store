@@ -2,8 +2,12 @@ import { MongoClient } from "mongodb";
 
 const MONGODB_URI = process.env.MONGODB_URI;
 
-if (!MONGODB_URI) {
-  throw new Error("Please define the MONGODB_URI environment variable in .env.local");
+// Don't throw at build time — only at runtime when actually connecting
+function ensureUri() {
+  if (!MONGODB_URI) {
+    throw new Error("Please define the MONGODB_URI environment variable in Vercel dashboard or .env.local");
+  }
+  return MONGODB_URI;
 }
 
 /**
@@ -27,7 +31,8 @@ export async function getMongoClient() {
   }
 
   if (!cached.promise) {
-    const client = new MongoClient(MONGODB_URI);
+    const uri = ensureUri();
+    const client = new MongoClient(uri);
     cached.promise = client.connect().then((client) => {
       cached.client = client;
       return client;
